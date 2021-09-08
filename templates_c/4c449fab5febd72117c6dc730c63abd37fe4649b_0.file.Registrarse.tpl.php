@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-09-08 20:42:31
-  from 'C:\xampp\htdocs\Cl-nicaLaMitologica\templates\Home.tpl' */
+/* Smarty version 3.1.39, created on 2021-09-08 20:45:01
+  from 'C:\xampp\htdocs\Cl-nicaLaMitologica\templates\Registrarse.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_61390417a883d7_28919403',
+  'unifunc' => 'content_613904adf1c902_26057279',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
-    'ab0b41d46e48b43d539d09850923a81ef9357072' => 
+    '4c449fab5febd72117c6dc730c63abd37fe4649b' => 
     array (
-      0 => 'C:\\xampp\\htdocs\\Cl-nicaLaMitologica\\templates\\Home.tpl',
-      1 => 1631126548,
+      0 => 'C:\\xampp\\htdocs\\Cl-nicaLaMitologica\\templates\\Registrarse.tpl',
+      1 => 1631126676,
       2 => 'file',
     ),
   ),
@@ -22,12 +22,12 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:Cabeceras/Footer.tpl' => 1,
   ),
 ),false)) {
-function content_61390417a883d7_28919403 (Smarty_Internal_Template $_smarty_tpl) {
-?>  <?php $_smarty_tpl->_subTemplateRender("file:Cabeceras/Header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
+function content_613904adf1c902_26057279 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->_subTemplateRender("file:Cabeceras/Header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>  
-      <nav>
+<nav>
         <div class="nav-wrapper amber lighten-1">
-          <a href="#" class="brand-logo center">LOGIN</a>
+          <a href="#" class="brand-logo center">LA MITOLOGICA/ingreso nuevo</a>
           <ul id="nav-mobile" class="left hide-on-med-and-down">
             <li><a href="sass.html">Clinicas</a></li>
             <li><a href="badges.html">Doctores</a></li>
@@ -55,18 +55,14 @@ function content_61390417a883d7_28919403 (Smarty_Internal_Template $_smarty_tpl)
 
       <div class="valign-wrapper">
      
-            <button class="btn waves-effect waves-light pink" type="submit" name="action"><font face="Georgia">Ingresar</font>
-             <i class="material-icons right">login</i>
-            </button>
             <button class="btn waves-effect waves-light pink" type="submit" name="action"><font face="Georgia">Registrarse</font>
               <i class="material-icons right">login</i>
              </button>
-      </div>
+  
 
+    </div>
 
-
-  <?php $_smarty_tpl->_subTemplateRender("file:Cabeceras/Footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
+ <?php $_smarty_tpl->_subTemplateRender("file:Cabeceras/Footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>  
- 
-        <?php }
+ <?php }
 }

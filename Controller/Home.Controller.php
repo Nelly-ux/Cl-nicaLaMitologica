@@ -11,7 +11,7 @@ class Home
     public function Inicio()
     {
         $this->smarty->assign('title','LOGIN');
-        $this->smarty->display('Home.tpl');
+        $this->smarty->display('Videoconsulta.tpl');
     }
 }
 
