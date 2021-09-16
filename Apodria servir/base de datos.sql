@@ -1,7 +1,7 @@
 CREATE TABLE Rol (
   idRol INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
   Nombre VARCHAR(45) NULL,
-  Descripción TEXT NULL,
+  Descripciï¿½n TEXT NULL,
   PRIMARY KEY(idRol)
 );
 
@@ -11,7 +11,7 @@ CREATE TABLE Citas (
   Fecha DATE NULL,
   Telefono INT NULL,
   Hora TIME NULL,
-  Unidad Médica VARCHAR(45) NULL,
+  Unidad Mï¿½dica VARCHAR(45) NULL,
   PRIMARY KEY(idCitas)
 );
 

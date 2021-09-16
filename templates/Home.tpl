@@ -9,36 +9,45 @@
           </ul>
         </div>
       </nav>
-      
 
-      <div class="row">
-        <div class="col s12">
-          <div class="input-field col s4">
-            <input id="email_inline" type="email" class="validate">
-            <label for="email_inline">Email</label>
-          
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="input-field col s4">
-          <input id="password" type="password" class="validate">
-          <label for="password">Password</label>
-        </div>
-      </div>
-
-      <div class="valign-wrapper">
      
-            <button class="btn waves-effect waves-light pink" type="submit" name="action"><font face="Georgia">Ingresar</font>
-             <i class="material-icons right">login</i>
-            </button>
-            <button class="btn waves-effect waves-light pink" type="submit" name="action"><font face="Georgia">Registrarse</font>
-              <i class="material-icons right">login</i>
-             </button>
-      </div>
+       <form method="post" action="?controller=User&method=BuscarUsuario" class="col s4">
+      
+          <div class="row">
+            <div class="col s12">
+              <div class="input-field col s4">
+                <input id="user" type="text" class="validate" required="" name="user"/>
+                <label for="user">User</label>
+              
+              </div>
+            </div>
+          </div>
 
-
-
+          <div class="row">
+          <div class="col s12">
+            <div class="input-field col s4">
+              <input id="password" type="password" class="validate" required="" name="pass"/>
+              <label for="password">Password</label>
+            </div>
+          </div>
+          </div>
+          
+          <div class="row">
+          <div class="col s12">   
+            <div class="input-field col s4"> 
+                <button class="btn waves-effect waves-light pink" type="submit" name="action"><font face="Georgia">Ingresar</font>
+                <a href="templates/usuario.tpl" i class="material-icons right">login</a></i>
+                </button>
+                <button class="btn waves-effect waves-light pink" type="submit" name="action"><font face="Georgia">Registrarse</font>
+                  <i class="material-icons right">login</i>
+                </button>
+          </div>
+          </div>
+          </div>
+       </form>
+     </div>
+ 
+      
   {include file="Cabeceras/Footer.tpl"}  
  
         

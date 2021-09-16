@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-09-08 21:18:20
+/* Smarty version 3.1.39, created on 2021-09-13 15:30:51
   from 'C:\xampp\htdocs\Cl-nicaLaMitologica\templates\Videoconsulta.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_61390c7c9414a3_82467890',
+  'unifunc' => 'content_613f528b34cc60_50401701',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '6a1842105cc2eefb123263eef8e5cfd525014b99' => 
     array (
       0 => 'C:\\xampp\\htdocs\\Cl-nicaLaMitologica\\templates\\Videoconsulta.tpl',
-      1 => 1631128675,
+      1 => 1631536927,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_61390c7c9414a3_82467890 (Smarty_Internal_Template $_smarty_tpl) {
+function content_613f528b34cc60_50401701 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -81,27 +81,26 @@ function content_61390c7c9414a3_82467890 (Smarty_Internal_Template $_smarty_tpl)
       </div>
       <form action="#">
         <p>
+            <label>
+             <input name="group1" type="radio" />
+             <span>Dermatología</span>
+           </label>
+         </p>
+        <p>
           <label>
-            <input type="checkbox" />
-            <span>Dermatología</span>
-          </label>
-        </p> 
-        
-<p>
-          <label>
-            <input type="checkbox" />
+            <input name="group1" type="radio" />
             <span>Médico General</span>
           </label>
         </p>
         <p>
           <label>
-            <input type="checkbox"/>
-            <span>Pediatria</span>
+            <input name="group1" type="radio"  />
+            <span>Pediatría</span>
           </label>
         </p>
         <p>
           <label>
-            <input type="checkbox" />
+            <input name="group1" type="radio" />
             <span>Odontología</span>
           </label>
         </p>

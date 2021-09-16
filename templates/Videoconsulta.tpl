@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="js/admin.js"></script>
+    
     
   <body bgcolor="#b2ebf2">
 <font face="Georgia">
@@ -15,8 +15,8 @@
   <div class="nav-wrapper #cddc39 lime">
         <a href="#" class="brand-logo center">Complete el formulario</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="home.tpl">Salir</a></li>
-        <li><a href="tipo.tpl">Regresar</a></li>
+        <li><a href="templates/Home.tpl">Salir</a></li>
+        <li><a href="templates/Tipo.tpl">Regresar</a></li>
         </ul>
   </div>
   <div class="col s12 m8 offset-m2 l6 offset-l3">
@@ -54,27 +54,26 @@
       </div>
       <form action="#">
         <p>
+            <label>
+             <input name="group1" type="radio" />
+             <span>Dermatología</span>
+           </label>
+         </p>
+        <p>
           <label>
-            <input type="checkbox" />
-            <span>Dermatología</span>
-          </label>
-        </p> 
-        
-<p>
-          <label>
-            <input type="checkbox" />
+            <input name="group1" type="radio" />
             <span>Médico General</span>
           </label>
         </p>
         <p>
           <label>
-            <input type="checkbox"/>
-            <span>Pediatria</span>
+            <input name="group1" type="radio"  />
+            <span>Pediatría</span>
           </label>
         </p>
         <p>
           <label>
-            <input type="checkbox" />
+            <input name="group1" type="radio" />
             <span>Odontología</span>
           </label>
         </p>

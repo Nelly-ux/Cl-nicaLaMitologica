@@ -1,12 +1,39 @@
-<!DOCTYPE html>
+<?php
+/* Smarty version 3.1.39, created on 2021-09-13 14:40:43
+  from 'C:\xampp\htdocs\Cl-nicaLaMitologica\templates\Presencial.tpl' */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.39',
+  'unifunc' => 'content_613f46cb47f807_18703758',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '2a62d3ac3d6d7d48f1e0d17cbbf218823d70e2f7' => 
+    array (
+      0 => 'C:\\xampp\\htdocs\\Cl-nicaLaMitologica\\templates\\Presencial.tpl',
+      1 => 1631536839,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_613f46cb47f807_18703758 (Smarty_Internal_Template $_smarty_tpl) {
+?><!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <title>formulario</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="js/admin.js"></script>
+    <?php echo '<script'; ?>
+ src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="js/admin.js"><?php echo '</script'; ?>
+>
     
 <body bgcolor="#b2ebf2">
 <font face="Georgia">
@@ -15,8 +42,8 @@
   <div class="nav-wrapper #cddc39 lime">
         <a href="#" class="brand-logo center">Complete el formulario</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="templates/Home.tpl">Salir</a></li>
-        <li><a href="templates/Tipo.tpl">Regresar</a></li>
+        <li><a href="Home.tpl">Salir</a></li>
+        <li><a href="tipo.tpl">Regresar</a></li>
         </ul>
   </div>
   
@@ -55,7 +82,7 @@
       </div>
       <form action="#">
         
-    <p>
+        <p>
       <label>
         <input name="group1" type="radio" />
         <span>Dermatología</span>
@@ -99,4 +126,5 @@
   </div>
   </font>
   </body>
-</html>
+</html><?php }
+}
